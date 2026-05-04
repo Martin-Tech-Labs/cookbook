@@ -90,6 +90,16 @@ Each notebook is designed to:
 
 ## Setup
 
+### Option 1: using `uv` (recommended)
+
+```bash
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+```
+
+### Option 2: using standard `venv`
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -97,6 +107,19 @@ pip install -r requirements.txt
 ```
 
 ## Running the notebooks
+
+### In VS Code
+
+If you use VS Code with the Jupyter extension, you can open the `.ipynb` files directly inside VS Code and run them there. You do **not** need to launch Jupyter Notebook externally if your workflow is already based on VS Code.
+
+Recommended flow:
+- install the VS Code Python and Jupyter extensions
+- open this repository in VS Code
+- select the project interpreter from `.venv`
+- open any notebook in `notebooks/`
+- run cells directly inside VS Code
+
+### In classic Jupyter
 
 ```bash
 jupyter notebook
