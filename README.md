@@ -132,3 +132,7 @@ Then open the notebook you want inside `notebooks/`.
 - The model is intentionally small and CPU-friendly.
 - The code favors clarity over abstraction.
 - Notation is kept consistent across notebooks.
+
+## Full content access
+
+If you want to inspect the notebooks as plain text, VS Code can show the notebook source and cell structure directly. You can also export notebooks to Python or HTML from the VS Code notebook UI.
